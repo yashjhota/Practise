@@ -4,3 +4,4 @@ pytest
 wikipedia
 ipython
 click
+fire
