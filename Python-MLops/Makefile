@@ -12,7 +12,7 @@ run:
 	python wikibot.py
 
 lint:
-	pylint --disable=R,C *.py
+	pylint --disable=R,C,E1120 *.py
 # R recommend C configuration warning
 all:
 	install lint test

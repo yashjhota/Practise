@@ -1,8 +1,10 @@
 import fire
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
-    fire.Fire({
-        'hello': 'hello',
-        'goodbye': 'goodbye',
-    })
+    fire.Fire(
+        {
+            "hello": "hello",
+            "goodbye": "goodbye",
+        }
+    )
