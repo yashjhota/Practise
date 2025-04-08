@@ -8,6 +8,9 @@ test:
 format:
 	black *.py
 
+run:
+	python wikibot.py
+
 lint:
 	pylint --disable=R,C *.py
 # R recommend C configuration warning
